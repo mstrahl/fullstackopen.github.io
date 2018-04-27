@@ -161,7 +161,7 @@ Pyyntöön ja palvelimen lähettämään vastaukseen liittyy erinäinen määrä
 
 Ylempänä oleva _Response headers_ kertoo mm. vastauksen koon tavuina ja vastaushetken. Tärkeä headeri [Content-Type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type) kertoo, että vastaus on [utf-8](https://en.wikipedia.org/wiki/UTF-8)-muodossa oleva tekstitiedosto, jonka sisältö on muotoiltu HTML:llä. Näin selain tietää, että kyseessä on normaali [HTML](https://en.wikipedia.org/wiki/HTML)-sivu, joka tulee renderöidä käyttäjän selaimeen "websivun tavoin".
 
-Välilehti _Preview_ näyttää, miltä pyyntöön vastauksena lähetetty data näyttää. Kyseessä on siis normaali HTML-sivu, jonka _body_-osassa määritellään selaimessa näytettävän sivun rakenne:
+Välilehti _Preview_ näyttää, miltä pyyntöön vastauksena lähetetty data näyttää, _Response_ välilehdessä on sivun rakenteen. Kyseessä on siis normaali HTML-sivu, jonka _body_-osassa määritellään selaimessa näytettävän sivun rakenne:
 
 ![]({{ "/images/1/5.png" | absolute_url }})
 
